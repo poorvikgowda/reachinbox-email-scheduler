@@ -1,0 +1,47 @@
+# Node dependencies
+node_modules/
+
+# Logs
+npm-debug.log
+yarn-error.log
+*.log
+logs/
+
+# Production build output
+dist/
+build/
+
+# Environment files — NEVER commit real secrets
+.env
+.env.*
+# Allow the example/template file (contains only placeholders)
+!.env.example
+
+# Test coverage
+coverage/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# SQLite / Database runtime files
+*.sqlite
+*.sqlite-journal
+**/prisma/*.db
+
+# Docker volume data local mounts
+docker_data/
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Prisma generated client (regenerated from schema on install)
+backend/node_modules/
+frontend/node_modules/
